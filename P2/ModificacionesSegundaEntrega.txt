@@ -1,0 +1,5 @@
+-Torneo: antes, cada vez que hacía torneo obtenía 2 padres, y lo he corregido para que por torneo solo elija al mejor (devolviendo así solo 1 padre por torneo).
+-Mutación AG: al estar usando el operador de movimiento para la mutación, antes si establecía el "15%" realmente era el "30%", debido a que 
+	opera con dos cromosomas por vez. Para corregirlo lo que he hecho ha sido reducir ese porcentaje a la mitad, es decir, en caso de querer hacer
+	un 16% de mutación pues le aplico un 8%.
+-Memoria: he ampliado un poco más la conclusión.
